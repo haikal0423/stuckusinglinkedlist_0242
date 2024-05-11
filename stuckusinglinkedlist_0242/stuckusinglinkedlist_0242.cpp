@@ -40,3 +40,9 @@ public:
 		if (top == NULL) {
 			cout << "List is empty." << endl;
 		}
+		else {
+			Node* current = top;
+			while (current != NULL) {
+				cout << current->data << "   " << endl;
+				current = current->next;
+			}
